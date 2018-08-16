@@ -1,4 +1,4 @@
-#Use this for schedule the START and STOP ec2 instances
+# Use this for schedule the START and STOP ec2 instances
 
 These python file contains boto3 
 
