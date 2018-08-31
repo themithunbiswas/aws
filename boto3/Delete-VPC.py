@@ -33,7 +33,7 @@ try:
 		client.disassociate_route_table(
 			AssociationId = ROUTE_TABLE_ASS_ID
 		)
-		print ("RouteTable Desassociated from subnet '%'" %SUBNET_ID)
+		print ("RouteTable Desassociated from subnet '%s'" %SUBNET_ID)
 		readwrite.delfile("route_table_ass")
 	else:
 		print ("No route table association found")
